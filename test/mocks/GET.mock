@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Type: application/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <AutenticarUsuarioResponse xmlns="http://tempuri.org/">
+      <AutenticarUsuarioResult>int</AutenticarUsuarioResult>
+    </AutenticarUsuarioResponse>
+  </soap:Body>
+</soap:Envelope>
